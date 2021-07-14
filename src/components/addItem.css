@@ -1,0 +1,23 @@
+.addItemContainer {
+  margin: 40px auto;
+  color: #fff;
+}
+
+.button {
+  background-color: rgb(250, 61, 61);
+  border: none;
+  border-radius: 5px;
+  padding: 3px 10px;
+  margin-left: 10px;
+  transition: .2s all;
+}
+
+.button:hover, .button:focus {
+  transform: translateY(-2px);
+  box-shadow: 0 2px 10px black;
+}
+
+.button:active {
+  transform: translateY(0px);
+  box-shadow: 0 0px 2px black;
+}
